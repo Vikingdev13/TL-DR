@@ -1,1 +1,1 @@
-A text summarizer app that leverages the Apple Vision framework and the Reductio library by fdzsergio, that utilizes the TextRank algorithm, then generates extractive summaries.
+A text summarizer app that leverages the [Apple Vision framework](https://developer.apple.com/documentation/vision) and the [Reductio](https://github.com/fdzsergio/Reductio) library by [fdzsergio](https://github.com/fdzsergio), that utilizes the TextRank algorithm, then generates extractive summaries.
