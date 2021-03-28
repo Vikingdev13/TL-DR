@@ -140,20 +140,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="fdS-JP-7Hq">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="VHX-6V-nx0">
-                                <rect key="frame" x="20" y="105" width="374" height="572"/>
+                                <rect key="frame" x="20" y="49" width="374" height="367"/>
                                 <color key="backgroundColor" red="0.68856697219792928" green="0.75002836522702832" blue="0.94501862261030412" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
-                                <string key="text">Thank you for downloading TL;DR! When I made this I was a junior in college, attending Dakota State University. I made this as a project for my Machine Learning Fundamentals class. I was fascinated by NLP and knew I wanted to build something that incorporated NLP. This is a text summarizer app that utilizes the Apple Vision framework to identiify text using your camera. The text summarization utlizes the Reductio library by fdzsergio. Reductio uses the TextRank algorithm to provide an extractive summary of the text. There are 2 types of summaries currently in NLP: extractive and abstractive. An extractive summary is an NLP concept that means the text being summarized uses sentences from the text to make up the summary. Extractive summaries are still in their infancy and may not give you the best results every time; they aren't perfect. An abstractive summary attempts to create its own sentences from the text. </string>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="367" id="2LS-gE-7OR"/>
+                                </constraints>
+                                <mutableString key="text">Thank you for downloading TL;DR! When I made this I was a junior in college, attending Dakota State University, and majoring in Computer Science. I made this as a project for my Machine Learning Fundamentals class. I was fascinated by NLP and knew I wanted to build something that incorporated NLP. This is a text summarizer app that utilizes the Apple Vision framework to identiify text using your camera. The text summarization utlizes the Reductio library by fdzsergio. Reductio uses the TextRank algorithm to provide an extractive summary of the text. There are 2 types of summaries currently in NLP: extractive and abstractive. An extractive summary is an NLP concept that means the text being summarized uses sentences from the text to make up the summary. Extractive summaries are still in their infancy and may not give you the best results every time; they aren't perfect. An abstractive summary attempts to create its own sentences from the text. </mutableString>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Xu-II-jbv">
-                                <rect key="frame" x="186" y="742" width="43" height="45"/>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Xu-II-jbv">
+                                <rect key="frame" x="196" y="700" width="22" height="46"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="Qlu-EA-lcf"/>
+                                    <constraint firstAttribute="height" constant="46" id="pY0-xV-dLI"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="BackIcon"/>
                                 <connections>
@@ -164,17 +167,15 @@
                         <viewLayoutGuide key="safeArea" id="cEy-nW-iNs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="fdS-JP-7Hq" firstAttribute="leading" secondItem="cEy-nW-iNs" secondAttribute="leading" id="1na-rl-UnT"/>
-                            <constraint firstItem="VHX-6V-nx0" firstAttribute="centerX" secondItem="0Xu-II-jbv" secondAttribute="centerX" id="5M3-nR-Lld"/>
-                            <constraint firstItem="0Xu-II-jbv" firstAttribute="top" secondItem="VHX-6V-nx0" secondAttribute="bottom" constant="65" id="HGn-Kd-MNm"/>
-                            <constraint firstItem="cEy-nW-iNs" firstAttribute="bottom" secondItem="0Xu-II-jbv" secondAttribute="bottom" constant="21" id="Nvi-KR-elx"/>
-                            <constraint firstItem="VHX-6V-nx0" firstAttribute="leading" secondItem="Se5-kb-3TM" secondAttribute="leadingMargin" id="Rrt-or-A4p"/>
-                            <constraint firstItem="VHX-6V-nx0" firstAttribute="top" secondItem="cEy-nW-iNs" secondAttribute="top" constant="105" id="b6F-Yf-heO"/>
-                            <constraint firstItem="0Xu-II-jbv" firstAttribute="centerX" secondItem="Se5-kb-3TM" secondAttribute="centerX" id="g16-Qc-WbR"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="fdS-JP-7Hq" secondAttribute="bottom" constant="-88" id="kaf-pb-qZS"/>
-                            <constraint firstItem="fdS-JP-7Hq" firstAttribute="centerX" secondItem="0Xu-II-jbv" secondAttribute="centerX" id="kxh-O6-YIp"/>
-                            <constraint firstItem="fdS-JP-7Hq" firstAttribute="top" secondItem="cEy-nW-iNs" secondAttribute="top" id="lUz-3Q-Kae"/>
-                            <constraint firstItem="0Xu-II-jbv" firstAttribute="leading" secondItem="cEy-nW-iNs" secondAttribute="leading" constant="186" id="xVS-QO-1Rl"/>
+                            <constraint firstItem="fdS-JP-7Hq" firstAttribute="centerY" secondItem="Se5-kb-3TM" secondAttribute="centerY" id="697-eQ-Ebw"/>
+                            <constraint firstItem="cEy-nW-iNs" firstAttribute="bottom" secondItem="0Xu-II-jbv" secondAttribute="bottom" constant="62" id="BBB-dF-Xq2"/>
+                            <constraint firstItem="VHX-6V-nx0" firstAttribute="top" secondItem="cEy-nW-iNs" secondAttribute="top" constant="49" id="OdJ-ue-PRy"/>
+                            <constraint firstItem="fdS-JP-7Hq" firstAttribute="top" secondItem="cEy-nW-iNs" secondAttribute="top" id="PHy-ON-pzu"/>
+                            <constraint firstItem="VHX-6V-nx0" firstAttribute="leading" secondItem="Se5-kb-3TM" secondAttribute="leadingMargin" id="Wjt-oh-Esk"/>
+                            <constraint firstItem="0Xu-II-jbv" firstAttribute="centerX" secondItem="Se5-kb-3TM" secondAttribute="centerX" id="Y58-82-M2m"/>
+                            <constraint firstItem="fdS-JP-7Hq" firstAttribute="leading" secondItem="cEy-nW-iNs" secondAttribute="leading" id="aj4-29-dhL"/>
+                            <constraint firstItem="0Xu-II-jbv" firstAttribute="centerX" secondItem="VHX-6V-nx0" secondAttribute="centerX" id="pyx-ve-D16"/>
+                            <constraint firstItem="fdS-JP-7Hq" firstAttribute="centerX" secondItem="VHX-6V-nx0" secondAttribute="centerX" id="uTb-5b-GYa"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -185,7 +186,7 @@
     </scenes>
     <resources>
         <image name="AboutButton" width="100" height="37"/>
-        <image name="BackIcon" width="20" height="20"/>
+        <image name="BackIcon" width="22.5" height="22.5"/>
         <image name="Background" width="320" height="568"/>
         <image name="Button-Normal" width="100" height="37"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>

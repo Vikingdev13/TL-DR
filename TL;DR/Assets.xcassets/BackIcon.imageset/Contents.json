@@ -5,8 +5,8 @@
       "scale" : "1x"
     },
     {
+      "filename" : "button-arrow-computer-icons-png-favpng-AEPYAXBq0Z8mXNReZN5dU4E1s_1_45x45.jpeg",
       "idiom" : "universal",
-      "filename" : "StartOverIcon@2x.png",
       "scale" : "2x"
     },
     {
@@ -15,7 +15,7 @@
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }
