@@ -67,10 +67,26 @@
                                     <constraint firstItem="d1X-WX-O9X" firstAttribute="leading" secondItem="gxj-Kl-H1p" secondAttribute="leadingMargin" id="JS2-PK-cxE"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJT-Zl-egm">
+                                <rect key="frame" x="157" y="762" width="100" height="47"/>
+                                <state key="normal" image="Button-Normal"/>
+                                <connections>
+                                    <action selector="scanReceipts:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PUQ-jK-249"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cL4-pu-y5F">
+                                <rect key="frame" x="299" y="770" width="72" height="31"/>
+                                <state key="normal" image="AboutButton">
+                                    <color key="titleColor" systemColor="systemOrangeColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="B7Z-7y-XTY" kind="presentation" id="ndh-g0-7uB"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxK-hg-GIA">
-                                <rect key="frame" x="63" y="763" width="40" height="34"/>
+                                <rect key="frame" x="63" y="770.5" width="40" height="34"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="swG-ej-F46"/>
+                                    <constraint firstAttribute="height" constant="35" id="esU-uF-RzU"/>
                                 </constraints>
                                 <color key="tintColor" systemColor="systemPinkColor"/>
                                 <state key="normal" backgroundImage="info.circle" catalog="system"/>
@@ -78,46 +94,32 @@
                                     <action selector="infoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pHg-1O-T4t"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJT-Zl-egm">
-                                <rect key="frame" x="157" y="762" width="100" height="46"/>
-                                <state key="normal" image="Button-Normal"/>
-                                <connections>
-                                    <action selector="scanReceipts:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PUQ-jK-249"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cL4-pu-y5F">
-                                <rect key="frame" x="296" y="770" width="67" height="30"/>
-                                <state key="normal" title="About Me">
-                                    <color key="titleColor" systemColor="systemOrangeColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="B7Z-7y-XTY" kind="presentation" id="ndh-g0-7uB"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="nJT-Zl-egm" firstAttribute="top" secondItem="bZh-e5-eHn" secondAttribute="bottom" constant="18" id="4g2-Pi-hhb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rxK-hg-GIA" secondAttribute="bottom" constant="10.5" id="672-hY-7Fq"/>
-                            <constraint firstItem="nJT-Zl-egm" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="70V-Rx-MZq"/>
-                            <constraint firstItem="cL4-pu-y5F" firstAttribute="centerY" secondItem="nJT-Zl-egm" secondAttribute="centerY" id="7Ce-kt-fnI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cL4-pu-y5F" secondAttribute="bottom" constant="7" id="0ls-ss-GQh"/>
+                            <constraint firstItem="nJT-Zl-egm" firstAttribute="leading" secondItem="rxK-hg-GIA" secondAttribute="trailing" constant="54" id="2il-wN-DNB"/>
                             <constraint firstItem="tJ5-W0-6Sy" firstAttribute="centerX" secondItem="gxj-Kl-H1p" secondAttribute="centerX" id="7Rr-be-86Z"/>
                             <constraint firstItem="gxj-Kl-H1p" firstAttribute="leading" secondItem="bZh-e5-eHn" secondAttribute="leading" id="CaT-oP-IUC"/>
-                            <constraint firstItem="bZh-e5-eHn" firstAttribute="centerX" secondItem="nJT-Zl-egm" secondAttribute="centerX" id="Dre-zj-G0h"/>
-                            <constraint firstItem="rxK-hg-GIA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="63" id="EXf-Ai-Lvp"/>
-                            <constraint firstItem="rxK-hg-GIA" firstAttribute="top" secondItem="bZh-e5-eHn" secondAttribute="bottom" constant="18.5" id="GfX-QM-1AL"/>
+                            <constraint firstItem="nJT-Zl-egm" firstAttribute="centerY" secondItem="cL4-pu-y5F" secondAttribute="centerY" id="Chb-Of-gET"/>
                             <constraint firstItem="gxj-Kl-H1p" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="GsI-mO-m0m"/>
                             <constraint firstItem="gxj-Kl-H1p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="H3h-Us-s6c"/>
                             <constraint firstItem="gxj-Kl-H1p" firstAttribute="trailing" secondItem="bZh-e5-eHn" secondAttribute="trailing" id="JHE-s4-Hb6"/>
                             <constraint firstItem="tJ5-W0-6Sy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JNB-id-rwl"/>
                             <constraint firstItem="bZh-e5-eHn" firstAttribute="top" secondItem="gxj-Kl-H1p" secondAttribute="bottom" constant="8" id="Juj-Tv-y5c"/>
-                            <constraint firstItem="nJT-Zl-egm" firstAttribute="leading" secondItem="rxK-hg-GIA" secondAttribute="trailing" constant="54" id="PDa-gb-eGA"/>
+                            <constraint firstItem="nJT-Zl-egm" firstAttribute="centerX" secondItem="bZh-e5-eHn" secondAttribute="centerX" id="LoK-Sz-Uv5"/>
+                            <constraint firstItem="rxK-hg-GIA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="63" id="Su6-1G-60L"/>
                             <constraint firstItem="tJ5-W0-6Sy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-44" id="VZu-gs-5fZ"/>
-                            <constraint firstItem="cL4-pu-y5F" firstAttribute="leading" secondItem="nJT-Zl-egm" secondAttribute="trailing" constant="39" id="WRN-dU-sfM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cL4-pu-y5F" secondAttribute="trailing" constant="43" id="kL3-yF-I6n"/>
+                            <constraint firstItem="cL4-pu-y5F" firstAttribute="leading" secondItem="nJT-Zl-egm" secondAttribute="trailing" constant="42" id="kmS-dh-lBQ"/>
+                            <constraint firstItem="rxK-hg-GIA" firstAttribute="top" secondItem="cL4-pu-y5F" secondAttribute="top" id="n6d-FP-ngN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rxK-hg-GIA" secondAttribute="bottom" constant="3" id="oos-ja-XHI"/>
                             <constraint firstItem="gxj-Kl-H1p" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pYb-SD-r1u"/>
                             <constraint firstItem="bZh-e5-eHn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="384" id="plf-dX-lJO"/>
+                            <constraint firstItem="cL4-pu-y5F" firstAttribute="top" secondItem="bZh-e5-eHn" secondAttribute="bottom" constant="26" id="sOf-ue-QmK"/>
                             <constraint firstItem="tJ5-W0-6Sy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tL8-3X-2PM"/>
+                            <constraint firstItem="nJT-Zl-egm" firstAttribute="top" secondItem="bZh-e5-eHn" secondAttribute="bottom" constant="18" id="xAg-NM-nN4"/>
                         </constraints>
                     </view>
                     <connections>
@@ -127,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-881" y="-631"/>
+            <point key="canvasLocation" x="-881.15942028985512" y="-631.47321428571422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Lga-RJ-J8K">
@@ -143,7 +145,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="VHX-6V-nx0">
                                 <rect key="frame" x="20" y="105" width="374" height="572"/>
                                 <color key="backgroundColor" red="0.68856697219792928" green="0.75002836522702832" blue="0.94501862261030412" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">Thank you for downloading TL;DR! When I made this I was a junior in college, attending Dakota State University. I made this as a project for my Machine Learning Fundamentals class. I was fascinated by NLP and knew I wanted to build something that incorporated NLP. This is a text summarizer app that utilizes the Apple Vision framework to identiify text using your camera. The text summarization utlizes the Reductio library by fdzsergio. Reductio uses the TextRank algorithm to provide an extractive summary of the text. There are 2 types of summaries currently in NLP: extractive and abstractive. An extractive summary is an NLP concept that means the text being summarized uses sentences from the text to make up the summary. Extractive summaries are still in their infancy and may not give you the best results every time; they aren't perfect. An abstractive summary attempts to create its own sentences from the text. </mutableString>
+                                <string key="text">Thank you for downloading TL;DR! When I made this I was a junior in college, attending Dakota State University. I made this as a project for my Machine Learning Fundamentals class. I was fascinated by NLP and knew I wanted to build something that incorporated NLP. This is a text summarizer app that utilizes the Apple Vision framework to identiify text using your camera. The text summarization utlizes the Reductio library by fdzsergio. Reductio uses the TextRank algorithm to provide an extractive summary of the text. There are 2 types of summaries currently in NLP: extractive and abstractive. An extractive summary is an NLP concept that means the text being summarized uses sentences from the text to make up the summary. Extractive summaries are still in their infancy and may not give you the best results every time; they aren't perfect. An abstractive summary attempts to create its own sentences from the text. </string>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -182,6 +184,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AboutButton" width="100" height="37"/>
         <image name="BackIcon" width="20" height="20"/>
         <image name="Background" width="320" height="568"/>
         <image name="Button-Normal" width="100" height="37"/>
