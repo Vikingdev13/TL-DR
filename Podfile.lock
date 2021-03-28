@@ -1,0 +1,16 @@
+PODS:
+  - Reductio (1.4.0)
+
+DEPENDENCIES:
+  - Reductio
+
+SPEC REPOS:
+  trunk:
+    - Reductio
+
+SPEC CHECKSUMS:
+  Reductio: bb6fe437dc1025f766d1c39161029efad2220cc9
+
+PODFILE CHECKSUM: 75c26d46facd148483bc21ff40d84393bc1a06f3
+
+COCOAPODS: 1.10.1
