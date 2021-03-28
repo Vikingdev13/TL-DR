@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72049350049ACAD97B10E842 /* Pods_TL_DR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3734232938EBDB125A2F0F0 /* Pods_TL_DR.framework */; };
 		DD5D16C1260D176C0096BA6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D16C0260D176C0096BA6E /* AppDelegate.swift */; };
 		DD5D16C3260D176C0096BA6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D16C2260D176C0096BA6E /* SceneDelegate.swift */; };
 		DD5D16C5260D176C0096BA6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D16C4260D176C0096BA6E /* ViewController.swift */; };
 		DD5D16C8260D176C0096BA6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D16C6260D176C0096BA6E /* Main.storyboard */; };
 		DD5D16CA260D176D0096BA6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5D16C9260D176D0096BA6E /* Assets.xcassets */; };
 		DD5D16CD260D176D0096BA6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D16CB260D176D0096BA6E /* LaunchScreen.storyboard */; };
+		DD8669CC260D194800DC15A2 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD8669CB260D194800DC15A2 /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EB5A5EF92D016878F4CAE62 /* Pods-TL;DR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TL;DR.debug.xcconfig"; path = "Target Support Files/Pods-TL;DR/Pods-TL;DR.debug.xcconfig"; sourceTree = "<group>"; };
+		88787E83CB532C45BDFA5365 /* Pods-TL;DR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TL;DR.release.xcconfig"; path = "Target Support Files/Pods-TL;DR/Pods-TL;DR.release.xcconfig"; sourceTree = "<group>"; };
+		B3734232938EBDB125A2F0F0 /* Pods_TL_DR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TL_DR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5D16BD260D176C0096BA6E /* TL;DR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TL;DR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5D16C0260D176C0096BA6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD5D16C2260D176C0096BA6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		DD5D16C9260D176D0096BA6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD5D16CC260D176D0096BA6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD5D16CE260D176D0096BA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8669CB260D194800DC15A2 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72049350049ACAD97B10E842 /* Pods_TL_DR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B9E281925E8A33CF8E65D11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EB5A5EF92D016878F4CAE62 /* Pods-TL;DR.debug.xcconfig */,
+				88787E83CB532C45BDFA5365 /* Pods-TL;DR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DD5D16B4260D176C0096BA6E = {
 			isa = PBXGroup;
 			children = (
+				DD8669CA260D194800DC15A2 /* LICENSE */,
 				DD5D16BF260D176C0096BA6E /* TL;DR */,
 				DD5D16BE260D176C0096BA6E /* Products */,
+				9B9E281925E8A33CF8E65D11 /* Pods */,
+				F1A2EDEE914FEB80FEAD454C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +86,22 @@
 			path = "TL;DR";
 			sourceTree = "<group>";
 		};
+		DD8669CA260D194800DC15A2 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				DD8669CB260D194800DC15A2 /* LICENSE.txt */,
+			);
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		F1A2EDEE914FEB80FEAD454C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3734232938EBDB125A2F0F0 /* Pods_TL_DR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD5D16D1260D176D0096BA6E /* Build configuration list for PBXNativeTarget "TL;DR" */;
 			buildPhases = (
+				C0B1DC4A2D5BF495DE27D191 /* [CP] Check Pods Manifest.lock */,
 				DD5D16B9260D176C0096BA6E /* Sources */,
 				DD5D16BA260D176C0096BA6E /* Frameworks */,
 				DD5D16BB260D176C0096BA6E /* Resources */,
+				9EC8E05D1725DEA02C47DA1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8669CC260D194800DC15A2 /* LICENSE.txt in Resources */,
 				DD5D16CD260D176D0096BA6E /* LaunchScreen.storyboard in Resources */,
 				DD5D16CA260D176D0096BA6E /* Assets.xcassets in Resources */,
 				DD5D16C8260D176C0096BA6E /* Main.storyboard in Resources */,
@@ -131,6 +169,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EC8E05D1725DEA02C47DA1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TL;DR/Pods-TL;DR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TL;DR/Pods-TL;DR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TL;DR/Pods-TL;DR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0B1DC4A2D5BF495DE27D191 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TL;DR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DD5D16B9260D176C0096BA6E /* Sources */ = {
@@ -283,6 +363,7 @@
 		};
 		DD5D16D2260D176D0096BA6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB5A5EF92D016878F4CAE62 /* Pods-TL;DR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +377,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "VikingDev.TL-DR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DD5D16D3260D176D0096BA6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88787E83CB532C45BDFA5365 /* Pods-TL;DR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +397,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "VikingDev.TL-DR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
