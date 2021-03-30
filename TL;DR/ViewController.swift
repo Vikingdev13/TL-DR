@@ -55,11 +55,12 @@ class ViewController: UIViewController {
     
     // MARK: - Actions
     // Instructions for user on how to use app
-    @IBAction func userGuide(_ sender: UIButton) {
+    @IBAction func userGuide(_ sender: Any) {
         let alertController = UIAlertController(title: "Welcome to TL;DR!\n", message: "TL;DR is a text summarizer that leverages NLP and your camera to scan text and produce a summary of that text.\n\nHere is how to use TL;DR:\n\n1) Press the 'Start Here' button.\n\n2) If a privacy notification pops up, allow access to camera, then point camera at the text you would like to have summarized.\n\n3) Press the center circle button to take a picture of the text.\n\n4) Drag the corners and crop the image of the text you want summarized.\n\n5) Press 'Keep Scan' once you are satisfied with the cropped image.\n\n6) Lastly, press 'Save'. You will then be taken back to the summary page and your summary will be processed.\n\n7) To learn about the developer and the concept behind the app, click on the 'About' button.", preferredStyle: .alert)
         alertController.addAction(UIAlertAction(title: "Got it!", style: .default))
         self.present(alertController, animated: true, completion: nil)
     }
+    
     
     // User scan button
     @IBAction func scanReceipts(_ sender: UIControl?) {
