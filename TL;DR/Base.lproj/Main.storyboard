@@ -166,11 +166,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="nJT-Zl-egm" firstAttribute="leading" secondItem="e2q-1u-Htl" secondAttribute="trailing" constant="70" id="ANL-sC-NxF"/>
-                            <constraint firstItem="e2q-1u-Htl" firstAttribute="bottom" secondItem="nJT-Zl-egm" secondAttribute="bottom" id="C1M-f4-ARL"/>
+                            <constraint firstItem="e2q-1u-Htl" firstAttribute="bottom" secondItem="nJT-Zl-egm" secondAttribute="bottom" id="9u1-12-eKo"/>
+                            <constraint firstItem="e2q-1u-Htl" firstAttribute="top" secondItem="nJT-Zl-egm" secondAttribute="top" id="A7l-Zd-8Vm"/>
                             <constraint firstItem="gxj-Kl-H1p" firstAttribute="leading" secondItem="bZh-e5-eHn" secondAttribute="leading" id="CaT-oP-IUC"/>
                             <constraint firstItem="gxj-Kl-H1p" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="GsI-mO-m0m"/>
                             <constraint firstItem="gxj-Kl-H1p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="H3h-Us-s6c"/>
+                            <constraint firstItem="e2q-1u-Htl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="Itq-dM-TdI"/>
                             <constraint firstItem="gxj-Kl-H1p" firstAttribute="trailing" secondItem="bZh-e5-eHn" secondAttribute="trailing" id="JHE-s4-Hb6"/>
                             <constraint firstItem="bZh-e5-eHn" firstAttribute="top" secondItem="gxj-Kl-H1p" secondAttribute="bottom" constant="8" id="Juj-Tv-y5c"/>
                             <constraint firstItem="tJ5-W0-6Sy" firstAttribute="centerX" secondItem="gxj-Kl-H1p" secondAttribute="centerX" id="LZb-FJ-fpJ"/>
@@ -179,11 +180,10 @@
                             <constraint firstItem="nJT-Zl-egm" firstAttribute="centerX" secondItem="bZh-e5-eHn" secondAttribute="centerX" id="VC6-7b-TS6"/>
                             <constraint firstItem="tJ5-W0-6Sy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Xa0-iX-qmt"/>
                             <constraint firstAttribute="bottomMargin" secondItem="nJT-Zl-egm" secondAttribute="bottom" constant="-1" id="ZWb-yv-xXh"/>
+                            <constraint firstItem="nJT-Zl-egm" firstAttribute="leading" secondItem="e2q-1u-Htl" secondAttribute="trailing" constant="70" id="gUo-6e-Ifb"/>
                             <constraint firstItem="tJ5-W0-6Sy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-44" id="mbP-PY-hsV"/>
-                            <constraint firstItem="e2q-1u-Htl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="p93-KA-zZs"/>
                             <constraint firstItem="gxj-Kl-H1p" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pYb-SD-r1u"/>
                             <constraint firstItem="bZh-e5-eHn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="384" id="plf-dX-lJO"/>
-                            <constraint firstItem="e2q-1u-Htl" firstAttribute="top" secondItem="nJT-Zl-egm" secondAttribute="top" id="yXt-cF-h0C"/>
                         </constraints>
                     </view>
                     <connections>
@@ -193,7 +193,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1004" y="-631"/>
+            <point key="canvasLocation" x="-1225" y="-631"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="flU-1n-IOw">
@@ -212,7 +212,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="367" id="I3i-ec-7Cp"/>
                                 </constraints>
-                                <mutableString key="text">Thank you for downloading TL;DR! When I made this I was a junior in college, attending Dakota State University, and majoring in Computer Science. I made this as a project for my Machine Learning Fundamentals class. This is a text summarizer app that utilizes the Apple Vision framework to identiify text using your camera. The text summarization utlizes the Reductio library by fdzsergio. Reductio uses the TextRank algorithm to provide an extractive summary of the text. There are 2 types of summaries in NLP: extractive and abstractive. An extractive summary is an NLP concept that means the text being summarized uses sentences from the text to make up the summary. Extractive summaries are still in their infancy and may not give you the best results every time; they aren't perfect. An abstractive summary attempts to create its own sentences from the text. These can be even less accurate than extractive summaries. Keep this in mind when using the app.</mutableString>
+                                <string key="text">Thank you for downloading TL;DR! When I made this I was a junior in college, attending Dakota State University, and majoring in Computer Science. I made this as a project for my Machine Learning Fundamentals class. This is a text summarizer app that utilizes the Apple Vision framework to identiify text using your camera. The text summarization utlizes the Reductio library by fdzsergio. Reductio uses the TextRank algorithm to provide an extractive summary of the text. There are 2 types of summaries in NLP: extractive and abstractive. An extractive summary is an NLP concept that means the text being summarized uses sentences from the text to make up the summary. Extractive summaries are still in their infancy and may not give you the best results every time; they aren't perfect. An abstractive summary attempts to create its own sentences from the text. These can be even less accurate than extractive summaries. Keep this in mind when using the app.</string>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -247,7 +247,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ki-Rb-8tx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-39" y="-631"/>
+            <point key="canvasLocation" x="-532" y="-631"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -257,7 +257,7 @@
         <image name="AboutButton" width="100" height="37"/>
         <image name="Background" width="320" height="568"/>
         <image name="Button-Normal" width="100" height="37"/>
-        <image name="HomeButton" width="40" height="40"/>
+        <image name="HomeButton" width="50" height="50"/>
         <image name="InfoButton" width="100" height="100"/>
         <image name="Main" width="320" height="568"/>
         <image name="Main2" width="320" height="568"/>
