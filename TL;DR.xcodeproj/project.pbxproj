@@ -15,6 +15,7 @@
 		DD5D16CA260D176D0096BA6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5D16C9260D176D0096BA6E /* Assets.xcassets */; };
 		DD5D16CD260D176D0096BA6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D16CB260D176D0096BA6E /* LaunchScreen.storyboard */; };
 		DD8669CC260D194800DC15A2 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD8669CB260D194800DC15A2 /* LICENSE.txt */; };
+		DDACA52726E2C19E005A1086 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDACA52626E2C19E005A1086 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		DD5D16CC260D176D0096BA6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD5D16CE260D176D0096BA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD8669CB260D194800DC15A2 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		DDACA52626E2C19E005A1086 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72049350049ACAD97B10E842 /* Pods_TL_DR.framework in Frameworks */,
+				DDACA52726E2C19E005A1086 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +100,7 @@
 		F1A2EDEE914FEB80FEAD454C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DDACA52626E2C19E005A1086 /* StoreKit.framework */,
 				B3734232938EBDB125A2F0F0 /* Pods_TL_DR.framework */,
 			);
 			name = Frameworks;
